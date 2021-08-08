@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2E21F224548308006067FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E21F124548308006067FD /* AppDelegate.swift */; };
+		4B2E21F424548308006067FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E21F324548308006067FD /* SceneDelegate.swift */; };
+		4B2E21F624548308006067FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E21F524548308006067FD /* ContentView.swift */; };
+		4B2E21FB2454830A006067FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E21FA2454830A006067FD /* Preview Assets.xcassets */; };
+		4B2E21FE2454830A006067FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E21FC2454830A006067FD /* LaunchScreen.storyboard */; };
+		4B2E222E24549165006067FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B2E222D24549165006067FD /* Default-568h@2x.png */; };
+		4B8CED4E2598CFE7002ED767 /* CoffeeBeansWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CED4D2598CFE7002ED767 /* CoffeeBeansWeightView.swift */; };
+		4B8CED6A2598D3AD002ED767 /* ContentInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CED692598D3AD002ED767 /* ContentInput.swift */; };
+		4B8CED7A2598D431002ED767 /* ContentState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CED792598D431002ED767 /* ContentState.swift */; };
+		4B8CED832598D6D9002ED767 /* ContentDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CED822598D6D9002ED767 /* ContentDispatcher.swift */; };
+		4B8CED992598FBD0002ED767 /* CoffeeBeansWeightComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CED982598FBD0002ED767 /* CoffeeBeansWeightComponent.swift */; };
+		4B8CEDA22598FC02002ED767 /* ContentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDA12598FC02002ED767 /* ContentComponent.swift */; };
+		4B8CEDB4259900AB002ED767 /* FirstBoiledWaterAmountState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDB3259900AB002ED767 /* FirstBoiledWaterAmountState.swift */; };
+		4B8CEDBB259900D7002ED767 /* FirstBoiledWaterAmountInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDBA259900D7002ED767 /* FirstBoiledWaterAmountInput.swift */; };
+		4B8CEDC825990376002ED767 /* FirstBoiledWaterAmountDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDC725990376002ED767 /* FirstBoiledWaterAmountDispatcher.swift */; };
+		4B8CEDCF259903DA002ED767 /* FirstBoiledWaterAmountComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDCE259903DA002ED767 /* FirstBoiledWaterAmountComponent.swift */; };
+		4B8CEDD625990439002ED767 /* FirstBoiledWaterAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8CEDD525990439002ED767 /* FirstBoiledWaterAmountView.swift */; };
+		4B9C17B425977AD800C00E1B /* BowArch in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9C17B325977AD800C00E1B /* BowArch */; };
+		4B9C17BA25977C5C00C00E1B /* CoffeeBeansWeightInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C17B925977C5C00C00E1B /* CoffeeBeansWeightInput.swift */; };
+		4B9C17C525977CC000C00E1B /* CoffeeBeansWeightState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C17C425977CC000C00E1B /* CoffeeBeansWeightState.swift */; };
+		4B9C17D925977E7D00C00E1B /* CoffeeBeansWeightDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C17D825977E7D00C00E1B /* CoffeeBeansWeightDispatcher.swift */; };
+		4BC93D58245572390093BDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC93D57245572390093BDA7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B2E21EE24548308006067FD /* bowarch-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bowarch-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2E21F124548308006067FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B2E21F324548308006067FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B2E21F524548308006067FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B2E21FA2454830A006067FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B2E21FD2454830A006067FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B2E21FF2454830A006067FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2E222D24549165006067FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4B8CED4D2598CFE7002ED767 /* CoffeeBeansWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansWeightView.swift; sourceTree = "<group>"; };
+		4B8CED692598D3AD002ED767 /* ContentInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentInput.swift; sourceTree = "<group>"; };
+		4B8CED792598D431002ED767 /* ContentState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentState.swift; sourceTree = "<group>"; };
+		4B8CED822598D6D9002ED767 /* ContentDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDispatcher.swift; sourceTree = "<group>"; };
+		4B8CED982598FBD0002ED767 /* CoffeeBeansWeightComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansWeightComponent.swift; sourceTree = "<group>"; };
+		4B8CEDA12598FC02002ED767 /* ContentComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentComponent.swift; sourceTree = "<group>"; };
+		4B8CEDB3259900AB002ED767 /* FirstBoiledWaterAmountState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBoiledWaterAmountState.swift; sourceTree = "<group>"; };
+		4B8CEDBA259900D7002ED767 /* FirstBoiledWaterAmountInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBoiledWaterAmountInput.swift; sourceTree = "<group>"; };
+		4B8CEDC725990376002ED767 /* FirstBoiledWaterAmountDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBoiledWaterAmountDispatcher.swift; sourceTree = "<group>"; };
+		4B8CEDCE259903DA002ED767 /* FirstBoiledWaterAmountComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBoiledWaterAmountComponent.swift; sourceTree = "<group>"; };
+		4B8CEDD525990439002ED767 /* FirstBoiledWaterAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstBoiledWaterAmountView.swift; sourceTree = "<group>"; };
+		4B9C17B925977C5C00C00E1B /* CoffeeBeansWeightInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansWeightInput.swift; sourceTree = "<group>"; };
+		4B9C17C425977CC000C00E1B /* CoffeeBeansWeightState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansWeightState.swift; sourceTree = "<group>"; };
+		4B9C17D825977E7D00C00E1B /* CoffeeBeansWeightDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeBeansWeightDispatcher.swift; sourceTree = "<group>"; };
+		4BC93D57245572390093BDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2E21EB24548308006067FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9C17B425977AD800C00E1B /* BowArch in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2E21E524548308006067FD = {
+			isa = PBXGroup;
+			children = (
+				4B2E222D24549165006067FD /* Default-568h@2x.png */,
+				4B2E21F024548308006067FD /* bowarch-example */,
+				4B2E21EF24548308006067FD /* Products */,
+				4B8B0EE126BFC89900A53A4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2E21EF24548308006067FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2E21EE24548308006067FD /* bowarch-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2E21F024548308006067FD /* bowarch-example */ = {
+			isa = PBXGroup;
+			children = (
+				4BC93D622455C7960093BDA7 /* view */,
+				4B2E21F124548308006067FD /* AppDelegate.swift */,
+				4B2E21F324548308006067FD /* SceneDelegate.swift */,
+				4B2E21FC2454830A006067FD /* LaunchScreen.storyboard */,
+				4BC93D57245572390093BDA7 /* Assets.xcassets */,
+				4B2E21FF2454830A006067FD /* Info.plist */,
+				4B2E21F92454830A006067FD /* Preview Content */,
+			);
+			path = "bowarch-example";
+			sourceTree = "<group>";
+		};
+		4B2E21F92454830A006067FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B2E21FA2454830A006067FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B8B0EE126BFC89900A53A4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8CED972598FBB0002ED767 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				4B8CED982598FBD0002ED767 /* CoffeeBeansWeightComponent.swift */,
+				4B8CEDA12598FC02002ED767 /* ContentComponent.swift */,
+				4B8CEDCE259903DA002ED767 /* FirstBoiledWaterAmountComponent.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		4B9C17B825977C3F00C00E1B /* input */ = {
+			isa = PBXGroup;
+			children = (
+				4B8CED692598D3AD002ED767 /* ContentInput.swift */,
+				4B9C17B925977C5C00C00E1B /* CoffeeBeansWeightInput.swift */,
+				4B8CEDBA259900D7002ED767 /* FirstBoiledWaterAmountInput.swift */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		4B9C17C325977CAC00C00E1B /* state */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C17C425977CC000C00E1B /* CoffeeBeansWeightState.swift */,
+				4B8CED792598D431002ED767 /* ContentState.swift */,
+				4B8CEDB3259900AB002ED767 /* FirstBoiledWaterAmountState.swift */,
+			);
+			path = state;
+			sourceTree = "<group>";
+		};
+		4B9C17D725977E7000C00E1B /* dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				4B9C17D825977E7D00C00E1B /* CoffeeBeansWeightDispatcher.swift */,
+				4B8CED822598D6D9002ED767 /* ContentDispatcher.swift */,
+				4B8CEDC725990376002ED767 /* FirstBoiledWaterAmountDispatcher.swift */,
+			);
+			path = dispatcher;
+			sourceTree = "<group>";
+		};
+		4BC93D622455C7960093BDA7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				4B8CED972598FBB0002ED767 /* component */,
+				4B9C17D725977E7000C00E1B /* dispatcher */,
+				4B9C17C325977CAC00C00E1B /* state */,
+				4B9C17B825977C3F00C00E1B /* input */,
+				4B2E21F524548308006067FD /* ContentView.swift */,
+				4B8CED4D2598CFE7002ED767 /* CoffeeBeansWeightView.swift */,
+				4B8CEDD525990439002ED767 /* FirstBoiledWaterAmountView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2E21ED24548308006067FD /* bowarch-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2E22182454830A006067FD /* Build configuration list for PBXNativeTarget "bowarch-example" */;
+			buildPhases = (
+				4B2E21EA24548308006067FD /* Sources */,
+				4B2E21EB24548308006067FD /* Frameworks */,
+				4B2E21EC24548308006067FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bowarch-example";
+			packageProductDependencies = (
+				4B9C17B325977AD800C00E1B /* BowArch */,
+			);
+			productName = coffeebrew64;
+			productReference = 4B2E21EE24548308006067FD /* bowarch-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2E21E624548308006067FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "吉村優";
+				TargetAttributes = {
+					4B2E21ED24548308006067FD = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B2E21E924548308006067FD /* Build configuration list for PBXProject "bowarch-example" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2E21E524548308006067FD;
+			packageReferences = (
+				4B9C17B225977AD800C00E1B /* XCRemoteSwiftPackageReference "bow-arch" */,
+			);
+			productRefGroup = 4B2E21EF24548308006067FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2E21ED24548308006067FD /* bowarch-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2E21EC24548308006067FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2E21FE2454830A006067FD /* LaunchScreen.storyboard in Resources */,
+				4B2E21FB2454830A006067FD /* Preview Assets.xcassets in Resources */,
+				4BC93D58245572390093BDA7 /* Assets.xcassets in Resources */,
+				4B2E222E24549165006067FD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2E21EA24548308006067FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8CEDA22598FC02002ED767 /* ContentComponent.swift in Sources */,
+				4B8CED4E2598CFE7002ED767 /* CoffeeBeansWeightView.swift in Sources */,
+				4B9C17BA25977C5C00C00E1B /* CoffeeBeansWeightInput.swift in Sources */,
+				4B8CED992598FBD0002ED767 /* CoffeeBeansWeightComponent.swift in Sources */,
+				4B8CED7A2598D431002ED767 /* ContentState.swift in Sources */,
+				4B9C17D925977E7D00C00E1B /* CoffeeBeansWeightDispatcher.swift in Sources */,
+				4B2E21F224548308006067FD /* AppDelegate.swift in Sources */,
+				4B8CEDD625990439002ED767 /* FirstBoiledWaterAmountView.swift in Sources */,
+				4B8CEDB4259900AB002ED767 /* FirstBoiledWaterAmountState.swift in Sources */,
+				4B2E21F424548308006067FD /* SceneDelegate.swift in Sources */,
+				4B2E21F624548308006067FD /* ContentView.swift in Sources */,
+				4B8CEDC825990376002ED767 /* FirstBoiledWaterAmountDispatcher.swift in Sources */,
+				4B8CED832598D6D9002ED767 /* ContentDispatcher.swift in Sources */,
+				4B8CEDBB259900D7002ED767 /* FirstBoiledWaterAmountInput.swift in Sources */,
+				4B9C17C525977CC000C00E1B /* CoffeeBeansWeightState.swift in Sources */,
+				4B8CEDCF259903DA002ED767 /* FirstBoiledWaterAmountComponent.swift in Sources */,
+				4B8CED6A2598D3AD002ED767 /* ContentInput.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B2E21FC2454830A006067FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2E21FD2454830A006067FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B2E22162454830A006067FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B2E22172454830A006067FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B2E22192454830A006067FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"bowarch-example/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bowarch-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.y-yu.bowarch-example";
+				PRODUCT_NAME = "bowarch-example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4B2E221A2454830A006067FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"bowarch-example/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "bowarch-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.y-yu.bowarch-example";
+				PRODUCT_NAME = "bowarch-example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2E21E924548308006067FD /* Build configuration list for PBXProject "bowarch-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2E22162454830A006067FD /* Debug */,
+				4B2E22172454830A006067FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2E22182454830A006067FD /* Build configuration list for PBXNativeTarget "bowarch-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2E22192454830A006067FD /* Debug */,
+				4B2E221A2454830A006067FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B9C17B225977AD800C00E1B /* XCRemoteSwiftPackageReference "bow-arch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bow-swift/bow-arch";
+			requirement = {
+				kind = exactVersion;
+				version = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B9C17B325977AD800C00E1B /* BowArch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B9C17B225977AD800C00E1B /* XCRemoteSwiftPackageReference "bow-arch" */;
+			productName = BowArch;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B2E21E624548308006067FD /* Project object */;
+}
