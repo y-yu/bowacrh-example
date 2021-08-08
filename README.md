@@ -5,4 +5,4 @@ Swift Bow Arch Example App
 
 Bow Acrh Example App.
 
-- [Swift Bow Archの入門](https://zenn.dev/yyu/articles/268447da9fb103)
+- [Swift Bow ArchのLens/Prismによる状態操作](https://zenn.dev/yyu/articles/268447da9fb103)
